@@ -161,7 +161,6 @@ h2 {
 
 
   .right-content {
-
     position: relative;
   }
 
@@ -183,4 +182,28 @@ h2 {
     height: 110vh !important;
     z-index: -1;
   }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+  .home-img img {
+    position: absolute;
+    left: -85%;
+    top: -30%;
+    height: 90vh !important;
+    z-index: -1;
+    object-position: center;
+  }
+
+  .left-content {
+    height: 80vh;
+  }
+
+  .left-content .text {
+    width: 50%;
+
+  }
+
+
 }
