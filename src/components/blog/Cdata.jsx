@@ -8,31 +8,36 @@ const Cdata = [
 	},
 	{
 		id: 2,
-		cover: "src/images/woman-3.jpg",
+		cover:
+			"https://cdn.pixabay.com/photo/2023/09/05/04/33/model-8234287_1280.jpg",
 		category: "lifestyle",
 		title: "How much will it Cost to Travel?",
 	},
 	{
 		id: 3,
-		cover: "src/images/woman-5.webp",
+		cover:
+			"https://cdn.pixabay.com/photo/2023/03/28/17/34/girl-7883816_1280.jpg",
 		category: "lifestyle",
 		title: "Where can People travel right now?",
 	},
 	{
 		id: 4,
-		cover: "src/images/woman-4.webp",
+		cover:
+			"https://cdn.pixabay.com/photo/2024/06/01/05/27/siblings-8801515_1280.jpg",
 		category: "lifestyle",
 		title: "What is the best about Travelling?",
 	},
 	{
 		id: 5,
-		cover: "src/images/image-6.webp",
+		cover:
+			"https://cdn.pixabay.com/photo/2023/03/14/23/55/darling-7853389_1280.jpg",
 		category: "lifestyle",
 		title: "What are the best countries to visit?",
 	},
 	{
 		id: 6,
-		cover: "src/images/image-7.webp",
+		cover:
+			"https://cdn.pixabay.com/photo/2023/10/24/14/59/woman-8338390_1280.jpg",
 		category: "lifestyle",
 		title: "What do you Gain from Traveling?",
 	},
