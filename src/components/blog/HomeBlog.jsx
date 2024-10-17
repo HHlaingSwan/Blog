@@ -13,7 +13,7 @@ const HomeBlog = () => {
 						</div>
 						<div className='home-img'>
 							<img
-								src='images/woman-1.jpg'
+								src='src/images/woman-1.jpg'
 								alt=''
 							/>
 						</div>
