@@ -1,4 +1,5 @@
-import Card from "./Card";
+import { NavLink } from "react-router-dom";
+import Card from "../blog/Card";
 import Footer from "../footer/Footer";
 import Slider from "../slide/Slide";
 
@@ -20,7 +21,9 @@ const HomeBlog = () => {
 						<div className='text'>
 							<h1>You Can Change The World</h1>
 							<p>Women Are Redirect The Future</p>
-							<span>by Jame Lannister</span>
+							<NavLink to='/page-one'>
+								<button className='btn'>Read More</button>
+							</NavLink>
 						</div>
 						<div className='text text2'>
 							<h1>Strong Style</h1>

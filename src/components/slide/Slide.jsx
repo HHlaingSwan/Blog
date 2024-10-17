@@ -4,6 +4,7 @@ import "./slide.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from "react-router-dom";
 
 const Slide = () => {
 	const settings = {
@@ -30,9 +31,11 @@ const Slide = () => {
 									/>
 								</div>
 								<div className='text'>
-									<span>{value.category}</span>
 									<h2>{value.title}</h2>
 									<p>{value.desc}</p>
+									<NavLink to='/'>
+										<button className='btn btn2'>Read More</button>
+									</NavLink>
 								</div>
 							</div>
 						);

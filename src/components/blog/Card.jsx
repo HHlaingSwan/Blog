@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Card.css";
 import Cdata from "./Cdata";
 
@@ -16,8 +17,10 @@ const Card = () => {
 									alt='Card Images'
 								/>
 							</div>
-							<span>{value.category}</span>
 							<h2>{value.title}</h2>
+							<NavLink to='/page-one'>
+								<button className='btn btn2'>Read More</button>
+							</NavLink>
 						</div>
 					);
 				})}

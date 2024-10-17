@@ -43,6 +43,40 @@ h2 {
   grid-gap: 30px;
 }
 
+.btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn2 {
+  background: #000;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.btn:active {
+  background-color: crimson;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+i {
+  margin-left: 10px;
+}
+
 /* .top {
   margin-top: 50px;
 } */

@@ -1,0 +1,195 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container .container-left {
+    width: 50%;
+    height: 100vh !important;
+}
+
+.container .container-left .title {
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(71, 138, 138);
+    width: 20%;
+    padding: 0 0 20px 20px;
+}
+
+.container .container-left .title h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .container-left .title .b-1 {
+    font-size: 50px;
+    padding-left: 86%;
+    color: whitesmoke
+}
+
+.container .container-left .title .b-2 {
+    font-size: 50px;
+    color: whitesmoke;
+    padding-left: 70%;
+}
+
+.container .container-left .title .b-3 {
+    font-size: 50px;
+    padding-left: 54%;
+    color: whitesmoke
+}
+
+.container .container-left .title .b-4 {
+    font-size: 50px;
+    padding-left: 40%;
+    color: whitesmoke
+}
+
+.container .container-left .title .b-5 {
+    font-size: 50px;
+    padding-left: 27%;
+    color: whitesmoke
+}
+
+.container .container-left .title .b-6 {
+    font-size: 200px;
+    position: relative;
+    top: -7%;
+    margin-left: 20%;
+    color: whitesmoke
+}
+
+.container .container-left .title .text {
+    position: relative;
+    top: -10%;
+    margin-left: 13%;
+}
+
+.container .container-left .title .text p {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.container .container-left .image {
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    right: -7%;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.container .container-left .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .container-right {
+    width: 50%;
+    padding: 4% 2%;
+    background-color: rgb(71, 138, 138);
+    display: flex;
+}
+
+.container .container-right .content-1 {
+    width: 48%;
+    height: 100%;
+}
+
+.container .container-right .content-1 p {
+    letter-spacing: 1px;
+}
+
+.container .container-right .content-1 h1 {
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.container .container-right .content-2 {
+    width: 50%;
+    height: 100%;
+    padding-left: 2%;
+}
+
+.container .container-right .content-2 p {
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container .container-left {
+        width: 100%;
+        height: 60vh !important;
+
+    }
+
+    .container .container-left .title {
+        width: 50%;
+        height: 60vh !important;
+    }
+
+    .container .container-left .title .b-1 {
+        margin-left: -3%;
+    }
+
+    .container .container-left .title .b-2 {
+        margin-left: -7%;
+    }
+
+    .container .container-left .title .b-3 {
+        margin-left: -12%;
+    }
+
+    .container .container-left .title .b-4 {
+        margin-left: -15%;
+    }
+
+    .container .container-left .title .b-5 {
+        margin-left: -20%;
+    }
+
+    .container .container-left .title .b-6 {
+        margin-left: 2%;
+        margin-top: 20%;
+    }
+
+
+    .container .container-left .title .text {
+        display: none;
+    }
+
+    .container .container-left .image {
+        width: 93%;
+
+    }
+
+    .container .container-left .image img {
+        height: 60vh;
+
+    }
+
+    .container .container-right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        padding: 20px 20px;
+    }
+
+    .container .container-right .content-1 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .container .container-right .content-2 {
+        width: 100%;
+        height: 90%;
+    }
+
+
+}
