@@ -2,7 +2,7 @@ const Cdata = [
 	{
 		id: 1,
 		cover:
-			"https://cdn.pixabay.com/photo/2024/09/19/22/22/snake-9059936_1280.jpg",
+			"https://cdn.pixabay.com/photo/2023/06/02/14/11/woman-8035752_1280.jpg",
 		category: "lifestyle",
 		title: "Best Places to visit in the World",
 	},
