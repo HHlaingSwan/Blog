@@ -1,7 +1,8 @@
 const Cdata = [
 	{
 		id: 1,
-		cover: "src/images/woman-2.jpg",
+		cover:
+			"https://cdn.pixabay.com/photo/2024/09/19/22/22/snake-9059936_1280.jpg",
 		category: "lifestyle",
 		title: "Best Places to visit in the World",
 	},
