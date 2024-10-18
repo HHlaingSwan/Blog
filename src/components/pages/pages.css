@@ -6,11 +6,11 @@
 
 .container .container-left {
     width: 50%;
-    height: 100vh !important;
+    height: 100vh;
 }
 
 .container .container-left .title {
-    height: 100vh !important;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,7 +74,7 @@
 }
 
 .container .container-left .image {
-    height: 100vh !important;
+    height: 100vh;
     width: 100%;
     position: relative;
     right: -7%;
@@ -123,13 +123,13 @@
 @media only screen and (max-width: 480px) {
     .container .container-left {
         width: 100%;
-        height: 60vh !important;
+        height: 60vh;
 
     }
 
     .container .container-left .title {
         width: 50%;
-        height: 60vh !important;
+        height: 60%;
     }
 
     .container .container-left .title .b-1 {
@@ -164,7 +164,7 @@
 
     .container .container-left .image {
         width: 93%;
-
+        height: 60vh;
     }
 
     .container .container-left .image img {
@@ -188,7 +188,81 @@
 
     .container .container-right .content-2 {
         width: 100%;
+        height: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container .container-left {
+        width: 100%;
+        height: 90vh;
+
+    }
+
+    .container .container-left .title {
+        width: 50%;
         height: 90%;
+    }
+
+    .container .container-left .title .b-1 {
+        margin-left: -1%;
+    }
+
+    .container .container-left .title .b-2 {
+        margin-left: 0;
+    }
+
+    .container .container-left .title .b-3 {
+        margin-left: -1%;
+    }
+
+    .container .container-left .title .b-4 {
+        margin-left: -1%;
+    }
+
+    .container .container-left .title .b-5 {
+        margin-left: -2%;
+    }
+
+    .container .container-left .title .b-6 {
+        margin-left: 19%;
+        margin-top: 2%;
+
+    }
+
+
+    .container .container-left .title .text {
+        display: none;
+    }
+
+    .container .container-left .image {
+        width: 93%;
+        height: 100vh;
+    }
+
+    .container .container-left .image img {
+        height: 100vh;
+    }
+
+    .container .container-right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        padding: 20px 20px;
+    }
+
+    .container .container-right .content-1 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .container .container-right .content-2 {
+        width: 100%;
+        height: 80%;
     }
 
 
